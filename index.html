@@ -6,6 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>TypeScript</title>
     <script type="module" src="dist/bundle.js"></script>
+    <link rel="stylesheet" href="app.css" />
+    <script
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=[REDACTED]"
+    ></script>
   </head>
-  <body></body>
+  <body>
+    <div id="map">
+      <p>Please enter an address!</p>
+    </div>
+
+    <form id="search-form">
+      <input type="text" id="search-input" />
+      <button type="submit">Search</button>
+    </form>
+  </body>
 </html>
